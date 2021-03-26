@@ -1,11 +1,13 @@
 .first-tittle {
-    color: #ffffff; ;
+    color: #DF9814; ;
     letter-spacing: 0.1em;
     font-size: 70px;
   }
   .first-tittle:hover {
-      letter-spacing: 0.3em !important;
-      opacity: 0.8;
+       
+       transition: all 0.2s ease-out;
+      letter-spacing: 0.1em !important;
+      opacity: 0.7;
   }
   .lead {
     letter-spacing: 0.55em;
@@ -26,7 +28,7 @@
         color: #03e9f4;
   }
         .nav-item  a:hover {
-        color: #ffffff !important;
+        color: #DF9814!important;
         background: #615e58a2;
         box-shadow: 0 0 5px #ffffff,
                     0 0 25px #ffffff,
@@ -37,7 +39,7 @@
       background-color: #0000008c !important;
   }
   .navbar-brand {
-    color: #F0F3F6;
+    color: #DF9814;
     font-size: 26px;
     font-family: serif;
   }
@@ -46,7 +48,7 @@
   }
   
   .jumbotron {
-    background-image: url(src/assets/death2.jpg);
+    background-image: url(src/assets/cyber.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,6 +75,7 @@
   .view-btn:hover {
       background-color: rgb(12, 11, 11);
       opacity: 0.8;
+      color: #DF9814 !important;
   }
   .page-footer {
       padding-top: 25px;
