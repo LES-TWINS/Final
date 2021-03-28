@@ -1,13 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+#section2 {
+  scroll-behavior: smooth;
+}
+
+main {
+  font-family: "Cinzel", serif;
+  color: white;
+  letter-spacing: 5px;
+}
 .first-tittle {
     color: #DF9814; ;
     letter-spacing: 0.1em;
     font-size: 70px;
   }
   .first-tittle:hover {
-       
-       transition: all 0.2s ease-out;
-      letter-spacing: 0.1em !important;
-      opacity: 0.7;
+    transition: all 0.2s ease-out;
+    letter-spacing: 0.1em !important;
+    opacity: 0.7;
   }
   .lead {
     letter-spacing: 0.55em;
@@ -19,7 +30,6 @@
     transition: all 0.5s;
   }
   .nav-item  a  {
-    
         font-family: "ninoBold";
         color: #ffffff !important;
         transition: all 0.5s ease;
@@ -46,23 +56,21 @@
   .navbar-brand:hover {
       opacity: 0.5;
   }
-  
-  .jumbotron {
-    background-image: url(src/assets/cyber.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin-bottom: 0;
+  .carousel-control-prev, .carousel-control-next{
+    z-index: 100;
+   
   }
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(223, 152, 20)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(223, 152, 20)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  
   .card {
     background-color: transparent !important;
   }
-  main {
-    font-family: "Cinzel", serif;
-    color: white;
-    letter-spacing: 5px;
-  }
+
   .view-btn {
     font-family: none;
     letter-spacing: 0rem;
@@ -79,9 +87,10 @@
   }
   .page-footer {
       padding-top: 25px;
-      background-image: radial-gradient(circle, rgb(17, 15, 15) , rgb(134, 134, 134));
+      background-image: radial-gradient(circle, #a77012 , #352e22);
       height: 130px;
   }
+
   .list-inline-item a {
       color: white;
   }
@@ -388,6 +397,8 @@
       opacity: 1;
     }
   }
+
+           
   .form-group .form-control:hover {
     border: 3px solid rgb(143, 123, 123);
   }
