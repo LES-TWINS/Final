@@ -1,0 +1,33 @@
+.nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
+    font-size: 16px;
+    transition: all 0.5s;
+  }
+  .nav-item  a  {
+    font-family: "ninoBold";
+    color: #ffffff !important;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    position: relative;
+    color: #03e9f4;
+}
+    .nav-item  a:hover {
+    color: #DF9814!important;
+    background: #615e58a2;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff,
+                0 0 50px #ffffff;
+}
+.navbar-brand {
+    color: #DF9814;
+    font-size: 26px;
+    font-family: serif;
+  }
+  .navbar-brand:hover {
+    opacity: 0.5;
+}
+.bg-dark {
+    background-color: #0000008c !important;
+}

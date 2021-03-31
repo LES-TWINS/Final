@@ -1,10 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-#section2 {
-  scroll-behavior: smooth;
-}
-
 main {
   font-family: "Cinzel", serif;
   color: white;
@@ -23,39 +19,6 @@ main {
   .lead {
     letter-spacing: 0.55em;
   }
-  .nav-link {
-    padding-right: 2.5rem !important;
-    padding-left: 2.5rem !important;
-    font-size: 16px;
-    transition: all 0.5s;
-  }
-  .nav-item  a  {
-        font-family: "ninoBold";
-        color: #ffffff !important;
-        transition: all 0.5s ease;
-        overflow: hidden;
-        position: relative;
-        color: #03e9f4;
-  }
-        .nav-item  a:hover {
-        color: #DF9814!important;
-        background: #615e58a2;
-        box-shadow: 0 0 5px #ffffff,
-                    0 0 25px #ffffff,
-                    0 0 50px #ffffff,
-                    0 0 50px #ffffff;
-  }
-  .bg-dark {
-      background-color: #0000008c !important;
-  }
-  .navbar-brand {
-    color: #DF9814;
-    font-size: 26px;
-    font-family: serif;
-  }
-  .navbar-brand:hover {
-      opacity: 0.5;
-  }
   .carousel-control-prev, .carousel-control-next{
     z-index: 100;
    
@@ -66,7 +29,35 @@ main {
   .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(223, 152, 20)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
   }
-  
+  .game-section {
+    background-color: #150921;
+    
+    
+  }
+  .img-fluid {
+    width: 360px;
+    z-index: -1;
+  }
+  .img-fluid:hover {
+    opacity: 0.7;
+    max-width: 330px;
+    transition: 0.6s;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #DF9814,
+                0 0 50px #DF9814,
+                0 0 50px #ffffff;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .img-fluid:hover {
+    max-width: 200px;
+  }
+}
+#game-box {
+  max-width: 1400px;
+}
+
   .card {
     background-color: transparent !important;
   }
