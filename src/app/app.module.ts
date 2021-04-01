@@ -9,6 +9,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
 import { GamesComponent } from './games/games.component';
 import { AboutComponent } from './about/about.component';
+import { TechnologyComponent } from './technology/technology.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AboutComponent } from './about/about.component';
     HomePageComponent,
     HeaderComponent,
     GamesComponent,
-    AboutComponent
+    AboutComponent,
+    TechnologyComponent,
+    ContactComponent
     
   ],
   imports: [

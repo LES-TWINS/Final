@@ -1,0 +1,31 @@
+.first-tittle {
+    letter-spacing: 0.1em;
+    font-size: 70px;
+  }
+  .lead {
+    letter-spacing: 0.55em;
+  }
+  .jumbotron {
+    background-image: url(https://images3.alphacoders.com/106/thumb-1920-1065466.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .view-btn {
+    font-family: none;
+    letter-spacing: 0rem;
+    text-transform: capitalize !important;
+    width: 140px;
+    border-color: white;
+    transition: all 0.5s;
+  }
+  main {
+    font-family: "Cinzel", serif;
+    color: white;
+    letter-spacing: 5px;
+  }
+  .middle {
+    position: absolute;
+
+  }

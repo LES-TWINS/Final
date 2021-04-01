@@ -1,97 +1,84 @@
 <app-header></app-header>
 <main id="home">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner" >
-      <div class="carousel-item active"  data-interval="100">
-        <img class="slider-img " src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4EWNy5X9K60AHANsrTRusM/1ef89b4f6452b3b6c29f5a07faa81279/WDL_BF_Key_art_1920x1080.jpg" alt="First slide" >
+  <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+      <li data-target="#video-carousel-example2" data-slide-to="1"></li>
+      <li data-target="#video-carousel-example2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <!-- First slide -->
+      <div class="carousel-item active">
+        <div class="test__4"></div>
+        <div class="view">
+          <!--Video source-->
+          <video class="video-fluid" autoplay loop muted [muted]="true" and [autoplay]="true" >
+            <source src="https://www.activision.com/cdn/videos/callofduty_mw_warzone_season4.mp4" type="video/mp4" />
+          </video>
+          <div class="mask rgba-indigo-light"></div>
+        </div>
       </div>
-      <div class="carousel-item "  data-interval="100">
-        <img class="slider-img " src="https://images3.alphacoders.com/106/thumb-1920-1065466.png" alt="Second slide" >
+      <!-- /.First slide -->
+  
+      <!-- Second slide -->
+      <div class="carousel-item">
+   <div class="test__3">
+
+   </div>
+        <div class="view">
+          <!--Video source-->
+          <video class="video-fluid " autoplay loop muted [muted]="true" and [autoplay]="true">
+            <source src="https://www.activision.com/cdn/videos/cod-blackops-coldwar.mp4" type="video/mp4" />
+          </video>
+          <div class="mask rgba-purple-slight"></div>
+        </div>
       </div>
-      <div class="carousel-item "  data-interval="100">
-        <img class="slider-img " src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/SlDJ3PISFMS4L0UEtTM80/9450827ee0ab26c6b6829282adfe5b3e/R6S_CrimsonHeist_Keyart.jpg" alt="Second slide" >
+      <!-- /.Second slide -->
+  
+      <!-- Third slide -->
+      <div class="carousel-item">
+        <div class="test__2"></div>
+        <!--Mask color-->
+        <div class="view">
+          <!--Video source-->
+          <video class="video-fluid" autoplay loop muted [muted]="true" and [autoplay]="true">
+            <source src="https://www.activision.com/cdn/videos/crashbandicoot_crash4.mp4" type="video/mp4" />
+          </video>
+         
+          <div class="mask rgba-black-strong"></div>
+      
+        </div>
       </div>
-      <div class="carousel-item "   data-interval="100">
-        <img class="slider-img " src="https://wallpaperaccess.com/full/1856508.jpg" alt="Third slide" >
-      </div>
+      
+      <!-- /.Third slide -->
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#video-carousel-example2" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#video-carousel-example2" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-    <div class="  container middle  text-center ">
-      <h1 class=" first-tittle">POPULAR GAMES</h1>
-      <a class="btn btn-secondary text-white view-btn" href="page2.html" role="button">View All</a>
-    </div>
+    <!--/.Controls-->
   </div>
+ 
+ 
+
+
 </main>
 <app-games></app-games>
 <app-about></app-about>
+<app-technology></app-technology>
+<app-contact></app-contact>
 
-<main id="books">
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-   
-    <div class="carousel-inner" >
-   
-      <div class="carousel-item active"  data-interval="100">
-        <img class="slider-img " src="https://wallpaperaccess.com/full/1507729.jpg" alt="First slide" >
-      </div>
-      <div class="carousel-item "  data-interval="100">
-        <img class="slider-img " src="https://images3.alphacoders.com/106/thumb-1920-1065466.png" alt="Second slide" >
-      </div>
-      <div class="carousel-item "   data-interval="100">
-        <img class="slider-img " src="https://wallpapercave.com/wp/wp7306896.jpg" alt="Third slide" >
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <div class="  container middle  text-center ">
-      <h1 class=" first-tittle">POPULAR GAMES</h1>
-      <a class="btn btn-secondary text-white view-btn" href="page2.html" role="button">View All</a>
-    </div>
-  </div>
-</main>
-<main id="contact">
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-   
-    <div class="carousel-inner" >
-   
-      <div class="carousel-item active"  data-interval="100">
-        <img class="slider-img " src="https://wallpaperaccess.com/full/1507729.jpg" alt="First slide" >
-      </div>
-      <div class="carousel-item "  data-interval="100">
-        <img class="slider-img " src="https://images3.alphacoders.com/106/thumb-1920-1065466.png" alt="Second slide" >
-      </div>
-      <div class="carousel-item "   data-interval="100">
-        <img class="slider-img " src="https://wallpapercave.com/wp/wp7306896.jpg" alt="Third slide" >
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <div class="  container middle  text-center ">
-      <h1 class=" first-tittle">POPULAR GAMES</h1>
-      <a class="btn btn-secondary text-white view-btn" href="page2.html" role="button">View All</a>
-    </div>
-  </div>
-</main>
 
 
 
