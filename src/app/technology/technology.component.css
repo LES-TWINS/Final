@@ -1,31 +1,41 @@
-.first-tittle {
-    letter-spacing: 0.1em;
-    font-size: 70px;
-  }
-  .lead {
-    letter-spacing: 0.55em;
-  }
-  .jumbotron {
-    background-image: url(https://images3.alphacoders.com/106/thumb-1920-1065466.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  .view-btn {
-    font-family: none;
-    letter-spacing: 0rem;
-    text-transform: capitalize !important;
-    width: 140px;
-    border-color: white;
-    transition: all 0.5s;
-  }
-  main {
-    font-family: "Cinzel", serif;
-    color: white;
-    letter-spacing: 5px;
-  }
-  .middle {
-    position: absolute;
+.card-body:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.card-img-top:hover{
+ 
+  opacity: 0.6;
+  transition: 0.6s;
+ 
+}
+.card-deck {
+  background-color: #151245;
+  margin-left: 0;
+  margin-right: 0;
+}
+.card {
+  background-color: #151245;
+ 
+}
+.card:hover {
+  
+ opacity: 0.6; 
+}
+.card-body {
+  color: white;
+  text-align: center;
+}
+.text-muted {
+  color: red !important;
+}
 
-  }
+
+
+
+
+
+
+
+
+
+
