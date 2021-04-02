@@ -12,20 +12,18 @@
     background-repeat: no-repeat;
     height: 100vh;
   }
-  .view-btn {
-    font-family: none;
-    letter-spacing: 0rem;
-    text-transform: capitalize !important;
-    width: 140px;
-    border-color: white;
-    transition: all 0.5s;
-  }
+
   main {
     font-family: "Cinzel", serif;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
   }
   .middle {
     position: absolute;
 
+  }
+  .form-group  input {
+    background-color: #0000002f !important;
+    color: white;
+    
   }
