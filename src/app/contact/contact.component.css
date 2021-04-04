@@ -1,22 +1,15 @@
-.first-tittle {
-    letter-spacing: 0.1em;
-    font-size: 70px;
-  }
-  .lead {
-    letter-spacing: 0.55em;
-  }
+ 
   .jumbotron {
     background-image: url(https://wallpapercave.com/wp/wp7436843.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-width: 100%;
-    height: 100vh;
+    height: 90vh;
   }
   @media only screen and (max-width: 768px) {
     .jumbotron {
-    
-   width: 100%;
+    width: 100%;
     height: 100%;
     }
   }
@@ -24,26 +17,19 @@
   main {
     font-family: "Cinzel", serif;
     color: white;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
   }
-  .middle {
-    position: absolute;
-
-  }
-  .form-group  input, select {
-   color:white;
-   background-color: #0000002f;
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-  }
-
-  
+  .form-group  input{
+    color:white;
+    background-color: #0000002f;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+   }
   .formclass {
     background-color: rgba(0, 0, 0, 0.63);
     padding: 50px;
     border-radius: 10%;
-    
   }
   .form-control:focus{
     border-color: #FEE600;
@@ -51,13 +37,26 @@
     box-shadow: none;
 }
 
-input::placeholder {
-  color: rgb(255, 255, 255);
+input::placeholder{
+  color: #fee5007a;
 }
-  option {
-    color: white;
-  background-color: rgb(0, 0, 0)!important ;
+
+span {
+  margin-left: 5px;
+  color: #5696D6 ;
 }
- option {
-  padding-left: 8px;
+
+.submit-btn {
+  color: #5696D6;
+  border-color: #5696D6;
+  display: flex;
+  margin: auto; 
 }
+.submit-btn:hover {
+  transition: 0.6s;
+  box-shadow: 0 0  5px #5696D6,
+              0 0  25px #5696D6,
+              0 0  50px #5696D6,
+              0 0  50px #5696D6;
+}
+
