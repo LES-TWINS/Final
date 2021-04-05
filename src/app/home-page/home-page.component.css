@@ -102,13 +102,3 @@ main {
   }
 
   
-  .page-footer {
-      padding-top: 25px;
-      background-image: radial-gradient(circle, #a77012 , #352e22);
-      height: 130px;
-  }
-
-  .list-inline-item a {
-      color: white;
-  }
-  

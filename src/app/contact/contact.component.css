@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     min-width: 100%;
-    height: 90vh;
+    height: 100vh;
   }
   @media only screen and (max-width: 768px) {
     .jumbotron {
@@ -15,12 +15,11 @@
     height: 100%;
     }
   }
-
   main {
     font-family: "Cinzel", serif;
-    color: white;
     letter-spacing: 5px;
   }
+  
   .form-group  input{
     color:white;
     background-color: #0000002f;
@@ -69,3 +68,62 @@ span {
     max-width: 100%;
 }
 }
+
+.footer, h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  font-size: 18px;
+  font-weight: 600;
+}
+.list-inline-item{
+  color: rgb(255, 255, 255);
+ 
+}
+
+.page-footer {
+  padding-top: 25px;
+  background-color: rgba(0, 0, 0, 0.13);
+  height: 30vh;
+}
+.footertext {
+  color: #B24325;
+}
+.footer-copyright{
+  color: #ffffff;
+}
+
+.jumbotron-2 {
+  background-image: url(https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/common/footer/footer-bg.png),radial-gradient(circle, #363636 0%, #000000 80%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: 30vh;
+  
+}
+
+.icons {
+  margin-top: 40px;
+  font-size: 35px;
+}
+.youtube:hover{
+  color: #C12025 !important;
+}
+.facebook:hover{
+  color: #3B5998 !important;
+}
+.twitter:hover{
+  color: #00ACED !important;
+}
+.skype:hover{
+  color: #0099E0 !important;
+}
+.instagram:hover{
+ color: #F56B40 !important;
+}
+
+
+
+
+

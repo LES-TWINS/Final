@@ -15,9 +15,10 @@
   }
   
   .first-tittle {
-      font-family: sans-serif;
-      letter-spacing: 2px;
-      font-weight: 700;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
     font-size: 96px;
     color: white;
   }
@@ -34,26 +35,27 @@
   }
 
  .inside-about {
-     background-color: #FFE600;
-     
-    
-    
+     background-color: #ffe60075;
  }
  .inside-about h3 {
      font-size: 36px;
      padding: 20px;
      
  }
+ 
  .para-about {
-     background-color: #FFE600 ;
-     
- } 
- .para-about p {
      font-size: 15px;
- }
+ } 
+ 
  .about-img {
       height: 400px;
       width: 100%;
+ }
+ .bg-about:hover {
+     background-color: #150921;
+     color: white;
+     transition: all 0.7s ;
+     transition-timing-function: ease-in-out;
  }
 
  
