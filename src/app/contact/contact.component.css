@@ -1,4 +1,6 @@
- 
+#contact {
+  min-width: 472px;
+}
   .jumbotron {
     background-image: url(https://wallpapercave.com/wp/wp7436843.jpg);
     background-size: cover;
@@ -59,4 +61,11 @@ span {
               0 0  50px #5696D6,
               0 0  50px #5696D6;
 }
-
+@media (max-width: 768px) {
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
