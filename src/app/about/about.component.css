@@ -57,6 +57,47 @@
      transition: all 0.7s ;
      transition-timing-function: ease-in-out;
  }
+ @media (min-width: 768px) and (max-width: 1023px) {
+    .about-col {
+       max-width: 100%;
+       flex: 100%;
+    }
+    }
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        .about-col, .banner-col {
+           max-width: 100%;
+           flex: 100%;
+        }
+       
+        .about-img {
+            height: auto;
+        }
+        .para-about {
+            font-size: 25px;
+        }
+        }
+        @media (min-width: 540px) and (max-width: 720px) {
+            .about-col {
+               max-width: 100%;
+               flex: 100%;
+            }
+       
+            }
+            @media  (max-width: 720px) {
+                .para-about {
+                   font-size: 25px;
+                }
+                }
+                @media (min-width: 891px) and (max-width: 1440px) {
+                    .about-img {
+                       height: auto;
+                    }
+                    .about-col {
+                        flex: 100%;
+                        max-width: 100%;
+                    }
+               
+                    }
 
  
  

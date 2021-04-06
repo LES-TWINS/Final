@@ -32,6 +32,9 @@
     padding: 50px;
     border-radius: 10%;
   }
+  .form-control {
+    border-radius: 0;
+  }
   .form-control:focus{
     border-color: #FEE600;
     -webkit-box-shadow: none;
@@ -68,6 +71,17 @@ span {
     max-width: 100%;
 }
 }
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .col-md-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 70%;
+      max-width: 70%;
+  }
+  .formclass {
+    margin: auto;
+  }
+  }
 
 .footer, h4 {
   color: white;
@@ -87,7 +101,7 @@ span {
   height: 30vh;
 }
 .footertext {
-  color: #B24325;
+  color: #FFBB25;
 }
 .footer-copyright{
   color: #ffffff;
@@ -122,8 +136,58 @@ span {
 .instagram:hover{
  color: #F56B40 !important;
 }
-
-
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .page-footer h4 {
+    margin-top: 45px;
+}
+  .footer-copyright{
+    font-size: 30px;
+  }
+  .page-footer h4 {
+    letter-spacing: 2px;
+  }
+  }
+  @media (min-width: 414px) and (max-width:736px) {
+    .page-footer {
+        padding-top: 1px;
+    }
+    }
+    @media (min-width: 375px) and (max-width:667px) {
+      .page-footer {
+          padding-top: 1px;
+      }
+      .footer-copyright{
+        margin-top: 2rem !important;
+      }
+      }
+      @media (min-width: 320px) and (max-width:568px) {
+        .page-footer {
+            padding-top: 1px;
+        }
+        .footer-copyright{
+          margin-top: 1rem !important;
+        }
+        }
+        @media (min-width: 411px) and (max-width:823px) {
+          .page-footer h4 {
+              margin-top: 3rem !important;
+          }
+        
+          }
+          @media  (max-width:280px) {
+            .page-footer {
+                padding-top: 5px;
+            }
+            .footer-copyright{
+              margin-top: 2rem !important;
+            }
+            }
+            .sticky {
+              transition: all 0.7s;
+              position: -webkit-sticky;
+              position: sticky;
+              top: 0;
+            }
 
 
 

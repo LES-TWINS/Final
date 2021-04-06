@@ -1,0 +1,54 @@
+#technology {
+  min-width: 472px;
+}
+
+.card-deck {
+  padding-top: 50px;
+}
+.card-body:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.card-img-top:hover{
+ 
+  opacity: 0.6;
+  transition: 0.6s;
+ 
+}
+.card-deck {
+  background-color: #151245;
+  margin-left: 0;
+  margin-right: 0;
+}
+.card {
+  background-color: #151245;
+ 
+}
+.card:hover {
+  
+ opacity: 0.6; 
+}
+.card-body {
+  color: white;
+  text-align: center;
+}
+.text-muted {
+  color: red !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-deck {
+  flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+<app-header></app-header>
+<main id="games" class="game-section">
+  <div class="container"  id="game-box">
+    <h1 class="font-weight-light text-center text-lg-center mb-4 ">Popular Games</h1>
+    <div class="row text-center text-lg-left">
+      <div class="col-lg-3 col-md-4 col-6" id="test" *ngFor="let game of gamesArray">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid" id="test1" src="{{game.imageURL}}" alt="GamePosters">
+            </a>
+      </div>
+    </div>
+  </div>
+  </main>
